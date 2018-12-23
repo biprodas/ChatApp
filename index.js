@@ -5,8 +5,8 @@ const socket = require('socket.io')
 const app = express();
 
 // LISTEN FOR REQUESTS
-const server = app.listen(4000, () => {
-    console.log('Now listening for requests on port 4000 ...');
+const server = app.listen(3000, () => {
+    console.log('Now listening for requests on port 3000 ...');
 });
 
 // MIDDLEWARE
